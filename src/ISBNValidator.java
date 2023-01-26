@@ -106,7 +106,6 @@ public class ISBNValidator {
             if (userIn == 3)
                 break;
             else if (userIn == 1) {
-                System.out.println(Arrays.toString(validNums));
                 for (int i = 0; i < validNums.length && validNums[i] != null; i++)
                     System.out.println(validNums[i]);
             } else if (userIn == 2) {
